@@ -1,2 +1,4 @@
-# matrix-portal-projects
-Projects to run on the Adafruit Matrix Portal / CircuitPython
+# GameTime Timer
+Keeps track of screentime. Resets each day.
+
+![](https://github.com/jay0lee/matrix-portal-projects/blob/main/gametime-timer-demo.gif?raw=true)
