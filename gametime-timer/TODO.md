@@ -1,0 +1,3 @@
+- right now if power is lost or reset while timer is running we assume no time is left. We could save minutes remaining to NVM as a byte (max timer length would be about 4 hours, 20 minutes) and decrement that each minute while the timer is running to stay roughly on track.
+- the button can be hard to press. We could figure out how to use the acceleraometer and have a shake to start timer.
+- avoid redrawing the picture if nothing has changed. This should prevent the flickering that occurs today.
